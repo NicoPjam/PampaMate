@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Distribuidora Pampeana de Yerba Mate | Santa Rosa, La Pampa</title><!-- EDITAR -->
+<meta name="description" content="Distribución mayorista de yerba mate en toda La Pampa. Entregas programadas a almacenes, supermercados y comercios.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧉</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1d2a1a; --yerba:#3b5527; --hoja:#6f8a3d; --paja:#d9c273; --cielo:#e6eee8; --blanco:#fbfcf9;
+  --font-d:'Bricolage Grotesque',system-ui,sans-serif; --font-b:'Newsreader',Georgia,serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--ink:#e7eee0; --yerba:#a9c77a; --hoja:#8fae5b; --paja:#d9c273; --cielo:#162014; --blanco:#101a0f}
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-b);font-size:1.15rem;line-height:1.6;color:var(--ink);background:var(--blanco)}
+h1,h2,h3{font-family:var(--font-d);line-height:1.05;letter-spacing:-.02em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--paja);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 1.25rem}
+header{display:flex;justify-content:space-between;align-items:center;padding:1rem 1.25rem;max-width:1080px;margin:0 auto}
+.logo{font-family:var(--font-d);font-weight:800;font-size:1.15rem;text-decoration:none}
+nav a{font-family:var(--font-d);font-weight:500;font-size:.95rem;margin-left:1.25rem;text-decoration:none}
+nav a:hover{text-decoration:underline}
+.hero{background:var(--cielo);padding:4.5rem 0 0;overflow:hidden}
+.hero h1{font-size:clamp(2.6rem,8vw,6rem);font-weight:800;max-width:12ch;color:var(--yerba)}
+.hero p{max-width:34rem;margin:1.5rem 0 2rem;font-size:1.3rem}
+.btn{display:inline-block;font-family:var(--font-d);font-weight:800;background:var(--yerba);color:var(--blanco);padding:.9rem 1.6rem;border-radius:999px;text-decoration:none;border:0;cursor:pointer;font-size:1rem}
+@media (prefers-color-scheme:dark){.btn{color:#101a0f}}
+.btn:hover{background:var(--hoja)}
+.btn.sec{background:transparent;color:var(--ink);border:2px solid var(--ink);margin-left:.5rem}
+.horizonte{display:block;width:100%;height:auto;margin-top:3rem}
+section{padding:4.5rem 0}
+h2{font-size:clamp(1.9rem,4.5vw,3rem);font-weight:800;margin-bottom:1rem;color:var(--yerba)}
+.intro{max-width:40rem;margin-bottom:2.5rem}
+.vars{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:0;border-top:3px solid var(--yerba)}
+.vars article{padding:1.5rem 1.25rem 1.5rem 0;border-bottom:1px solid color-mix(in srgb,var(--ink) 25%,transparent)}
+.vars h3{font-size:1.4rem;margin-bottom:.4rem}
+.vars small{font-family:var(--font-d);color:var(--hoja);font-weight:500}
+.pasos{background:var(--yerba);color:var(--blanco)}
+@media (prefers-color-scheme:dark){.pasos{background:#1f2e17;color:var(--ink)}}
+.pasos h2{color:var(--paja)}
+.pasos ol{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem;list-style:none;padding:0;counter-reset:p}
+.pasos li{counter-increment:p;border-top:2px solid var(--paja);padding-top:1rem}
+.pasos li::before{content:counter(p);font-family:var(--font-d);font-weight:800;font-size:2.4rem;color:var(--paja);display:block}
+.pasos h3{font-size:1.3rem;margin-bottom:.3rem}
+.zonas ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:.6rem}
+.zonas li{font-family:var(--font-d);font-weight:500;padding:.5rem 1rem;border:2px solid var(--hoja);border-radius:999px}
+.zonas li.base{background:var(--paja);border-color:var(--paja);color:#1d2a1a}
+.contacto{background:var(--cielo)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:3rem}
+@media (max-width:760px){.grid2{grid-template-columns:1fr}.btn.sec{margin:.75rem 0 0}}
+form{display:grid;gap:1rem}
+label{font-family:var(--font-d);font-weight:500;font-size:.95rem;display:grid;gap:.3rem}
+input,select,textarea{font:inherit;padding:.75rem;border:2px solid color-mix(in srgb,var(--ink) 40%,transparent);border-radius:8px;background:var(--blanco);color:var(--ink)}
+footer{padding:2rem 1.25rem;text-align:center;font-size:.95rem}
+@media (prefers-reduced-motion:no-preference){.hero h1{animation:in .8s ease-out both}@keyframes in{from{opacity:0;transform:translateY(14px)}}}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="#">🧉 Pampeana Yerba</a><!-- EDITAR -->
+  <nav><a href="#variedades">Variedades</a><a href="#como">Cómo trabajamos</a><a href="#zonas">Zonas</a><a href="#contacto">Contacto</a></nav>
+</header>
+
+<main>
+<div class="hero">
+  <div class="wrap">
+    <h1>Yerba mate en cada rincón de La Pampa</h1>
+    <p>Distribuimos yerba mate al por mayor a almacenes, kioscos, supermercados y comercios de toda la provincia, con entregas programadas desde Santa Rosa.</p>
+    <a class="btn" href="#contacto">Pedir lista de precios</a>
+    <a class="btn sec" href="#zonas">Ver zonas de entrega</a>
+  </div>
+  <svg class="horizonte" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 70 C200 40 400 90 600 60 S1000 40 1200 65 V120 H0Z" fill="#d9c273" opacity=".55"/>
+    <path d="M0 90 C250 65 450 105 700 82 S1050 70 1200 88 V120 H0Z" fill="#6f8a3d"/>
+    <path d="M0 108 C300 92 600 118 900 102 S1120 98 1200 106 V120 H0Z" fill="#3b5527"/>
+  </svg>
+</div>
+
+<section id="variedades">
+  <div class="wrap">
+    <h2>Variedades para cada tipo de cliente</h2>
+    <p class="intro">Trabajamos con yerbas de molienda y estacionamiento distintos para que tu comercio ofrezca lo que su barrio pide.</p><!-- EDITAR marcas reales -->
+    <div class="vars">
+      <article><h3>Con palo tradicional</h3><p>El sabor de siempre, de mayor rotación en almacenes.</p><small>500 g · 1 kg · 2 kg</small></article>
+      <article><h3>Sin palo</h3><p>Más intensa y espumosa, para el consumidor exigente.</p><small>500 g · 1 kg</small></article>
+      <article><h3>Suave</h3><p>Estacionamiento natural y gusto amable, ideal para quienes empiezan.</p><small>500 g · 1 kg</small></article>
+      <article><h3>Compuestas con hierbas</h3><p>Menta, boldo, cedrón y otras mezclas de alta demanda.</p><small>500 g</small></article>
+    </div>
+  </div>
+</section>
+
+<section class="pasos" id="como">
+  <div class="wrap">
+    <h2>Cómo trabajamos</h2>
+    <ol>
+      <li><h3>Consultá y recibí la lista</h3><p>Escribinos por WhatsApp y te enviamos precios actualizados y condiciones.</p></li>
+      <li><h3>Armá tu pedido</h3><p>Elegí variedades y cantidades. Pedido mínimo según zona.</p></li>
+      <li><h3>Recibí en tu comercio</h3><p>Entregamos en tu localidad en el día de reparto asignado.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="zonas" id="zonas">
+  <div class="wrap">
+    <h2>Zonas de entrega</h2>
+    <p class="intro">Repartimos con rutas fijas por toda la provincia. Si tu localidad no figura, consultanos.</p>
+    <ul><!-- EDITAR localidades -->
+      <li class="base">Santa Rosa (sede)</li><li>Toay</li><li>General Pico</li><li>Realicó</li><li>Eduardo Castex</li><li>Victorica</li><li>25 de Mayo</li><li>General Acha</li><li>Macachín</li><li>Intendente Alvear</li><li>Guatraché</li><li>Catriló</li>
+    </ul>
+  </div>
+</section>
+
+<section class="contacto" id="contacto">
+  <div class="wrap grid2">
+    <div>
+      <h2>Hablemos de tu pedido</h2>
+      <p>Completá el formulario y se abre WhatsApp con tu consulta lista para enviar.</p>
+      <p style="margin-top:1.5rem"><strong>Depósito:</strong> Calle 123, Santa Rosa, La Pampa<br><!-- EDITAR -->
+      <strong>Horario:</strong> Lunes a viernes, 8 a 17 h<br>
+      <strong>Email:</strong> <a href="mailto:ventas@ejemplo.com.ar">ventas@ejemplo.com.ar</a></p>
+    </div>
+    <form id="f">
+      <label>Nombre y comercio<input name="nombre" required autocomplete="organization"></label>
+      <label>Localidad<input name="loc" required placeholder="Ej: General Pico"></label>
+      <label>Tipo de comercio
+        <select name="tipo"><option>Almacén</option><option>Kiosco</option><option>Supermercado</option><option>Dietética</option><option>Otro</option></select>
+      </label>
+      <label>Consulta<textarea name="msg" rows="3" placeholder="Variedades y cantidades aproximadas"></textarea></label>
+      <button class="btn" type="submit">Enviar por WhatsApp</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>© <span id="y"></span> Pampeana Yerba · Santa Rosa, La Pampa, Argentina</footer><!-- EDITAR -->
+
+<script>
+document.getElementById('y').textContent = new Date().getFullYear();
+const WA = '5492954000000'; // EDITAR: número con código de país, sin +
+document.getElementById('f').addEventListener('submit', e => {
+  e.preventDefault();
+  const d = Object.fromEntries(new FormData(e.target));
+  const t = `Hola, soy ${d.nombre} (${d.tipo}) de ${d.loc}. Quiero la lista de precios de yerba mate.${d.msg ? ' ' + d.msg : ''}`;
+  window.open(`https://wa.me/${WA}?text=${encodeURIComponent(t)}`, '_blank', 'noopener');
+});
+</script>
+</body>
+</html>
